@@ -37,7 +37,8 @@ const MainPage = () => {
     setPerson(person);
   };
   return (
-    <div className="d-flex justify-content-center align-items-center pageBody container">
+    <div className="d-flex flex-column justify-content-around align-items-center pageBody container">
+      <h2>our Reviews</h2>
       {person && (
         <Cart
           previousPerson={previousPerson}
